@@ -1,0 +1,55 @@
+/* Student Section */
+.hero-title {
+    text-align: center;
+}
+
+.student-section {
+    max-width: 1200px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.category-buttons {
+    margin-bottom: 20px;
+}
+
+.category-buttons button {
+    padding: 12px 20px;
+    margin: 5px;
+    background-color: #ff7f7f;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.category-buttons button:hover {
+    background-color: #e06b6b;
+}
+
+.image-container {
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    transition: opacity 1s;
+}
+
+.instrument-menu {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+}

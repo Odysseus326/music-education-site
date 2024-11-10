@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Screen</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap" rel="stylesheet">
+    <link href="../css/foundation.css" rel="stylesheet">
+    <link href="../css/login.css" rel="stylesheet">
+</head>
+    <body>
+        <!-- Header Section -->
+        <header class="site-header">
+            <nav class="navbar">
+                <a href="default.html" class="nav-link">Home</a>
+                <a href="instructors.html" class="nav-link">Instructors</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="login.html" class="nav-link">Login</a>
+            </nav>
+        </header>
+        <main>
+            <div class="login-container">
+                <h1>Login</h1>
+                <form>
+                    <div class="input-group">
+                        <input type="email" id="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" id="password" placeholder="Password" required>
+                    </div>
+
+                    <div class="stay-logged-in">
+                        <input type="checkbox" id="stayLoggedIn">
+                        <label for="stayLoggedIn">Stay Logged In</label>
+                    </div>
+
+                    <button type="submit" class="login-button">Log In</button>
+                </form>
+            </div>
+        </main>
+    </body>
+</html>

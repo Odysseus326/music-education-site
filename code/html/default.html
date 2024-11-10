@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home - Music Website</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap" rel="stylesheet">
+        <link href="../css/foundation.css" rel="stylesheet">
+        <link href="../css/default.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <!-- Header Section -->
+        <header class="site-header">
+            <nav class="navbar">
+                <a href="#" class="nav-link">Home</a>
+                <a href="instructors.html" class="nav-link">Instructors</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="login.html" class="nav-link">Login</a>
+            </nav>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <img src="https://via.placeholder.com/1440x400" alt="Hero Image">
+            <div class="hero-title">
+                <h1>Find a teacher that is right for you or your child!</h1>
+            </div>
+        </section>
+
+        <!-- Dynamic Student Section -->
+        <section class="student-section">
+            <div class="category-buttons">
+                <button data-category="keyboards">Keyboards</button>
+                <button data-category="strings">Strings</button>
+                <button data-category="woodwinds">Woodwinds</button>
+                <button data-category="brass">Brass</button>
+                <button data-category="percussion">Percussion</button>
+            </div>
+
+            <div class="image-container">
+                <img id="instrument-image" src="https://via.placeholder.com/800x400" alt="Instrument Image">
+                <div class="instrument-menu" id="instrument-menu">
+                    <!-- Menu content will be injected dynamically -->
+                </div>
+            </div>
+        </section>
+        <script src="script.js" defer></script>
+</body>
+</html>
